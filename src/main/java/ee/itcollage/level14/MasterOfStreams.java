@@ -25,6 +25,11 @@ public class MasterOfStreams {
                         .map(n -> n * 2)
                         .collect(Collectors.toList());
         System.out.println(result);
+
+
+        Integer numbers= nums.stream()
+                .reduce(0, Integer::sum);
+        System.out.println(numbers);
     }
     //TODO convert method convertMe using streams
     public static List<Integer> converted() {
