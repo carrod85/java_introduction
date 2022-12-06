@@ -4,3 +4,4 @@ build
 java-introduction.iml
 target/
 out
+.DS_Store
